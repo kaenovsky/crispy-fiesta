@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 425px) {
+  main {
+    position: relative;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 30px;
+  }
+
+  .welcome,
+  .actions,
+  .btn_edit,
+  .btn_delete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .welcome {
+    width: 90%;
+    height: 161px;
+    margin: 80px 5% 0;
+    background: #faf6f6;
+    /* Divider / Bottom */
+
+    box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.12);
+  }
+
+  .welcome p {
+    width: 70%;
+    height: auto;
+
+    /* or 188% */
+    color: #212121;
+  }
+  .search {
+    width: 90%;
+    margin: 2% 5%;
+  }
+  .search input {
+    /* position: absolute; */
+    padding-left: 2vw;
+    text-indent: 6vw;
+    width: 100%;
+    height: 48px;
+    background: #ffffff;
+    background-image: url(/image/search.svg);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-origin: content-box;
+    /* Black / Mid */
+
+    border: 1px solid rgba(33, 33, 33, 0.52);
+    border-radius: 4px;
+  }
+
+  .info {
+    width: 90%;
+    margin: 0 5%;
+    overflow: auto;
+    background: #faf6f6;
+    /* Divider / Bottom */
+
+    box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.12);
+  }
+  .info_client {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 5%;
+    padding-top: 5%;
+  }
+  .client_data {
+    width: -webkit-fill-available;
+    padding-left: 2vw;
+  }
+  .client_data span {
+    font-size: 1.37em;
+  }
+  .tit_info_card {
+    display: flex;
+    margin: 5% 5% 0 5%;
+  }
+  .tit_info_card p {
+    padding: 0 1vw;
+  }
+
+  .info_cursos {
+    margin: 0 5%;
+    width: 90%;
+    height: fit-content;
+    min-height: 78px;
+    background: #e9e9e9;
+    /* Divider / Bottom */
+
+    box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+  }
+  .info_cursos .curso:last-child {
+    padding: 2vw;
+  }
+  .curso {
+    width: fit-content;
+    min-width: 60%;
+    padding: 2vw 2vw 0;
+
+    color: #ffffff;
+    font-size: 0.625em;
+  }
+  .curso p {
+    max-height: 30px;
+    background-color: #4b4b4b;
+    padding: 0 5px;
+    border-radius: 4px;
+  }
+
+  .info_coments {
+    width: 90%;
+    height: fit-content;
+    min-height: 177px;
+    margin: 0 5% 5% 5%;
+
+    background: #e9e9e9;
+    /* Divider / Bottom */
+
+    box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+  }
+
+  .actions {
+    width: 100%;
+    height: 72px;
+    background: #373737;
+  }
+
+  .btn_delete,
+  .btn_edit {
+    width: 100px;
+    height: 35px;
+    flex-direction: column;
+    padding: 8px 16px;
+    margin: 0 10%;
+    /* gap: 10px; */
+    color: #ffffff;
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.875em;
+    line-height: 24px;
+    background: #e31e18;
+    border: none;
+    border-radius: 4px;
+  }
+
+  .btn_edit {
+    left: auto;
+    right: 18%;
+    background: #00c17c;
+  }
+}
