@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="css/media_data.css" />
+    <link rel="stylesheet" href="css/data.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,7 +16,32 @@
     />
   </head>
   <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="navMedia navText" hidden>
+        <span>Clientes</span>
+        <span>Ventas</span>
+        <span>Cursos</span>
+      </div>
+      <div class="toggle-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="links_container">
+        <li class="links_item">
+          <a href="" class="link active"> clientes </a>
+        </li>
+        <li class="links_item">
+          <a href="" class="link"> Ventas </a>
+        </li>
+        <li class="links_item">
+          <a href="" class="link"> Cursos </a>
+        </li>
+      </ul>
+    </nav>
+
     <main>
+      <div class="pestaña"></div>
       <section class="welcome">
         <p>
           <strong>¡Hola!</strong> Acá vas a poder agregar, modificar y eliminar
@@ -57,11 +84,13 @@
           <p>Anotaciones</p>
         </div>
         <div class="info_coments"></div>
-      </section>
-      <section class="actions">
-        <button class="btn_delete">Eliminar</button>
-        <button class="btn_edit">Editar</button>
+        <section class="actions">
+          <button class="btn_delete" onclick="alert()">Eliminar</button>
+          <button class="btn_edit">Editar</button>
+        </section>
       </section>
     </main>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
   </body>
 </html>
