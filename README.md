@@ -5,7 +5,7 @@ Preview web app:
 
 ![](./snapshot.png)
 
-Testing deploy: http://188.166.21.164:4000/data.html 
+Testing deploy: http://188.166.21.164:4000
 
 ---
 
