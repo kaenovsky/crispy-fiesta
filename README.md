@@ -1,4 +1,4 @@
-# TP Base de Datos
+# TP Administración de Bases de Datos - IFTS18
 Cátedra de [Emanuel Odstrcil](https://github.com/alumnosifts18)
 
 Preview web app:
