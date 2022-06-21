@@ -5,7 +5,8 @@
 	font-family: sans-serif;
 }
 body{
-	background-color: #59739C
+	/*background-color: #59739C*/
+	background: linear-gradient(45deg, rgba(30,49,67,1) 0%, rgba(31,123,229,1) 100%);
 }
 .content {
 	max-width: 1024px;
@@ -73,6 +74,12 @@ header{
 
 
 	}
+
+	button:hover{
+		transform: scale(1.1);
+		transition: 1s;
+	}
+	
 .section-one{
 	background-color: #709CC1;
 	display: flex;
