@@ -5,6 +5,7 @@
     grid-gap: 20px;
     justify-items: center;
   }
+
   .pestaña {
     margin-top: -23px !important;
     height: 40px !important;
@@ -87,6 +88,11 @@
   .search {
     width: 90% !important;
     margin: 2% 5% !important;
+  }
+
+  table {
+    width: 98% !important;
+    margin: 1% !important;
   }
 
   .info {
