@@ -55,7 +55,7 @@ session_start();
       <section class="welcome">
         <p>
           <strong>¡Hola!</strong> Acá vas a poder encontrar la informacion de
-          los cursos disponibles en la base de datos.
+          las compras realizadas por tus clientes.
         </p>
       </section>
       <table>
