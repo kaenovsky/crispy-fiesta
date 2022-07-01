@@ -54,7 +54,7 @@ session_start();
       <div class="pestaña"></div>
       <section class="welcome">
         <p>
-          <strong>¡Hola!</strong> Acá vas a poder encontrar la informacion de
+          Acá vas a poder encontrar la informacion de
           los cursos disponibles en la base de datos.
         </p>
       </section>
