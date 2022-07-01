@@ -61,19 +61,19 @@ session_start();
       <table>
         <tr class="title-cursos">
           <td>ID</td>
-          <td>DESCRIPCION</td>
-          <td>DURACION</td>
-          <td>COSTO</td>
+          <td>NOMBRE</td>
+          <td>APELLIDO</td>
+          <td>CURSO COMPRADO</td>
         </tr>
         <?php
-        while ($row=mysqli_fetch_array($resultadoCursos))
+        while ($row=mysqli_fetch_array($resultadoCompras))
         {
         ?>
         <tr class="data-cursos">
-          <td><?php echo $row["idCurso"]; ?></td>
+          <td><?php echo $row["idCompra"]; ?></td>
+          <td><?php echo $row["nombre1"]; ?></td>
+          <td><?php echo $row["apellido1"]; ?></td>
           <td><?php echo $row["descripcionDelCurso"]; ?></td>
-          <td><?php echo $row["duracionDelCurso"]; ?></td>
-          <td><?php echo $row["costo"]; ?></td>
         </tr>
         <?php
         };

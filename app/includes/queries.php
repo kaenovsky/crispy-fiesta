@@ -6,6 +6,14 @@ $name = $nameQuery->fetch_array();
 $lastNameQuery = $conn->query("SELECT apellido1 FROM clientes WHERE idCliente = 1;");
 $lastName = $lastNameQuery->fetch_array();
 
-// Query consultado cursos
+// query consultado cursos
 
-$resultado = $conn->query("SELECT * FROM cursos;");
+$resultadoCursos = $conn->query("SELECT * FROM cursos;");
+
+// query consultado clientes
+
+$resultadoClientes = $conn->query("SELECT idCliente, nombre1, mail, celular FROM clientes;");
+
+// query consultado compras
+
+$resultadoCompras = $conn->query("SELECT compras.idCompra,clientes.nombre1,clientes.apellido1,cursos.descripcionDelCurso FROM compras JOIN clientes on compras.idCliente = clientes.idCliente JOIN cursos on compras.idCurso = cursos.idCurso;");

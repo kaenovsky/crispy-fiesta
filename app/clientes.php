@@ -13,7 +13,7 @@ session_start();
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cursos | Ediciones Azul</title>
+    <title>Clientes | Ediciones Azul</title>
     <link rel="stylesheet" href="css/media_data.css" />
     <link rel="stylesheet" href="css/data.css" />
     <link rel="stylesheet" href="css/cursos.css" />
@@ -61,19 +61,19 @@ session_start();
       <table>
         <tr class="title-cursos">
           <td>ID</td>
-          <td>DESCRIPCION</td>
-          <td>DURACION</td>
-          <td>COSTO</td>
+          <td>NOMBRE</td>
+          <td>EMAIL</td>
+          <td>CELULAR</td>
         </tr>
         <?php
-        while ($row=mysqli_fetch_array($resultadoCursos))
+        while ($row=mysqli_fetch_array($resultadoClientes))
         {
         ?>
         <tr class="data-cursos">
-          <td><?php echo $row["idCurso"]; ?></td>
-          <td><?php echo $row["descripcionDelCurso"]; ?></td>
-          <td><?php echo $row["duracionDelCurso"]; ?></td>
-          <td><?php echo $row["costo"]; ?></td>
+          <td><?php echo $row["idCliente"]; ?></td>
+          <td><?php echo $row["nombre1"]; ?></td>
+          <td><?php echo $row["mail"]; ?></td>
+          <td><?php echo $row["celular"]; ?></td>
         </tr>
         <?php
         };
