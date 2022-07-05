@@ -127,6 +127,10 @@
     left: auto;
     right: 18%;
   }
+
+  .pestaña {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 425px) {
