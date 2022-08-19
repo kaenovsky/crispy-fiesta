@@ -31,3 +31,5 @@ Mediante una web app accederemos a los registros de una base de datos que creamo
 - LAMP con Docker [por Mattrayner](https://github.com/mattrayner/docker-lamp)
 - Digital Ocean Droplet - 1GB
 - Integración con Github Actions
+
+[Recap final del TP](https://github.com/kaenovsky/iftsnotes/blob/main/112-administracion-bd/112-assets/proyecto-bd/proyecto-avances.md).
